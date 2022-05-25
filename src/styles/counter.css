@@ -1,0 +1,9 @@
+.counter {
+  text-align: center;
+  color: white;
+  font-size: 5rem;
+  font-weight: 600;
+  margin-top: 10px;
+  border: solid 8px white;
+  padding: 50px;
+}
