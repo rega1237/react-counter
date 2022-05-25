@@ -1,0 +1,33 @@
+button {
+  color: #090909;
+  margin: 2.5rem auto 0;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-shadow:
+    6px 6px 12px #c5c5c5,
+    -6px -6px 12px #fff;
+  box-shadow:
+    6px 6px 12px #c5c5c5,
+    -6px -6px 12px #fff;
+  cursor: pointer;
+  width: 200px;
+}
+
+button:hover {
+  border: 1px solid white;
+  background-color: rgb(212, 212, 212);
+}
+
+button:active {
+  -webkit-box-shadow:
+    4px 4px 12px #c5c5c5,
+    -4px -4px 12px #fff;
+  box-shadow:
+    4px 4px 12px #c5c5c5,
+    -4px -4px 12px #fff;
+}
